@@ -3,6 +3,5 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/crud-vue/',
   plugins: [vue()]
 })
