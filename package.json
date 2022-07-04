@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build --base='/crud-vue/'",
     "build:dev": "vue-tsc --noEmit && vite build --base='./' --sourcemap",
-    "serve": "json-server --watch db.json",
+    "serve": "json-server --watch db.json --port 3001",
     "preview": "vite preview"
   },
   "dependencies": {
